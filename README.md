@@ -12,25 +12,33 @@ Question Answering: Provide answers to questions about Luke Skywalker using retr
 # Installation
 Clone the repository:
 bash
+```
 git clone https://github.com/HarshP2109/Gemini-RAG.git
 cd Gemini-RAG
+```
 
 # Create and activate a virtual environment:
 bash
-Copy code
+```
 python -m venv env
 source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
 
 # Install dependencies:
 bash
-Copy code
+```
 pip install -r requirements.txt
+```
 
 # Setup Server (Backend)
+```
 fastapi dev mainServer.py
+```
 
 # Setup Streamlit (Frontend)
+```
 streamlit run streampost.py
+```
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
