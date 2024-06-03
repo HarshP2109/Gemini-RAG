@@ -1,0 +1,12 @@
+__pycache__
+.chainlit
+Backend
+chroma_db
+faiss_db
+myenv
+.env
+
+myFileChroma.py
+myFileFaiss.py
+
+steam.py
